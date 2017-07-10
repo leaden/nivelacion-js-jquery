@@ -7,12 +7,12 @@ $(document).ready( function(){
 //ocultando flecha//
 	$(".js-back").hide();
 
-//imprimiendo texto sin funcion//
-
+//imprimiendo texto//
+function printNews(){
     $("#insert").append('NUEVAS RECETAS');
-
-
-
+	}
+	
+printNews();
 
 });
 
