@@ -7,7 +7,16 @@ $(document).ready( function(){
 //ocultando flecha//
 	$(".js-back").hide();
 
+//imprimiendo texto sin funcion//
+
+    $("#insert").append('NUEVAS RECETAS');
+
+
+
+
 });
+
+
 
 
 /*
