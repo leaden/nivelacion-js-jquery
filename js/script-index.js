@@ -11,8 +11,9 @@ $(document).ready( function(){
 function printNews(){
     $("#insert").append('NUEVAS RECETAS');
 	}
-	
+
 printNews();
+
 
 });
 
@@ -24,7 +25,11 @@ printNews();
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
-	console.log('Recipes: ', recipesArray);
+  	recipesArray.forEach(function(element) {
+    if (element.highlighted==true) {
+    	renderRecipe(element);
+    }
+	});
 }
 
 /*
