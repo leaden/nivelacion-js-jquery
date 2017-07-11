@@ -5,3 +5,9 @@ $(document).ready(function(){
     $(".js-back").show();
 
 });
+
+
+$(document).ready(function(){
+	console.log("No estoy lista");
+
+});

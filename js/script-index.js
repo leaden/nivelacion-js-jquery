@@ -39,6 +39,9 @@ function renderHighlightedRecipes(recipesArray) {
 * archivo "templates/templates-recipe.html"
 */
 function renderRecipe(recipe) {
+    
+
+
 	console.log('Voy a pintar la receta: ', recipe);
 }
 
